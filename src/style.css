@@ -82,6 +82,7 @@ footer {
 
 #infoData {
   font-size: 20px;
+  text-transform: capitalize;
 }
 
 #tonightTemp {
