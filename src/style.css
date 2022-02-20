@@ -1,3 +1,100 @@
-h1{
-    color: red;
+body {
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  text-transform: capitalize;
+}
+
+h4 {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 17px;
+}
+
+footer {
+  margin: 15px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.container {
+  max-width: 800px;
+  min-width: 300px;
+  margin-top: 30px;
+}
+
+.weather-container {
+  border: 2px solid rgb(113, 170, 223);
+  border-radius: 10px;
+  background-color: rgba(113, 170, 223, 0.185);
+  padding: 16px;
+  margin: 8px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.062);
+}
+.search {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.today-emoji {
+  font-size: 100px;
+}
+
+.currentTemperature {
+  font-size: 45px;
+}
+
+.today-data {
+  position: relative;
+  top: 20px;
+}
+
+.units {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  bottom: 9px;
+}
+
+.other-data {
+  font-size: 15px;
+}
+
+.fiveDay-col {
+  padding: 0;
+}
+
+.five-days {
+  border: 2px solid rgb(113, 170, 223);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+#city {
+  text-transform: capitalize;
+}
+
+#infoData {
+  font-size: 20px;
+}
+
+#tonightTemp {
+  font-weight: bold;
+}
+
+#tonightEmoji {
+  font-size: 22px;
+}
+.vr {
+  padding: 0;
+}
+
+#fiveEmoji {
+  font-size: 18px;
 }
