@@ -22,7 +22,7 @@ footer {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 700px;
   min-width: 300px;
   margin-top: 30px;
 }
@@ -35,18 +35,23 @@ footer {
   margin: 8px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.062);
 }
+
 .search {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .currentTemperature {
-  font-size: 45px;
+  font-size: 50px;
+}
+
+.date {
+  font-size: 18px;
 }
 
 .today-data {
   position: relative;
-  top: 20px;
+  top: 25px;
 }
 
 .today-data .active {
@@ -61,44 +66,24 @@ footer {
   text-decoration: none;
   font-size: 15px;
   position: relative;
-  bottom: 9px;
+  bottom: 23px;
+}
+
+.description {
+  font-size: 17px;
+  text-transform: capitalize;
 }
 
 .other-data {
   font-size: 15px;
-}
-
-.fiveDay-col {
-  padding: 0;
-}
-
-.five-days {
-  border: 2px solid rgb(113, 170, 223);
-  border-radius: 10px;
-  padding: 10px;
-  margin: 20px 0;
+  position: relative;
+  top: 40px;
 }
 
 #city {
   text-transform: capitalize;
 }
 
-#infoData {
-  font-size: 20px;
-  text-transform: capitalize;
-}
-
-#tonightTemp {
-  font-weight: bold;
-}
-
-#tonightEmoji {
-  font-size: 22px;
-}
-.vr {
-  padding: 0;
-}
-
-#fiveEmoji {
-  font-size: 18px;
+#icon {
+  width: 140px;
 }
