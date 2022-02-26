@@ -49,8 +49,15 @@ footer {
   top: 20px;
 }
 
-.units {
+.today-data .active {
   color: black;
+  cursor: default;
+}
+.today-data .active:hover {
+  text-decoration: none;
+}
+
+.units {
   text-decoration: none;
   font-size: 15px;
   position: relative;
